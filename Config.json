@@ -1,0 +1,4 @@
+{
+    "regexPattern": "^\\d{3} \\| .+$",
+    "invalidMessage": "Invalid format. Please use the format: 000 | Nickname."
+}
