@@ -1,7 +1,6 @@
 import { regexPattern, invalidMessage } from './config.json';
 
-// Command to check the format
-onNet('playerConnecting', (input) => {
+on('playerConnecting', (input) => {
     deferrals.defer()
 
     const regex = new RegExp(regexPattern);
