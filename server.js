@@ -1,15 +1,17 @@
-import { regexPattern, invalidMessage } from './config.json';
+const { regexPattern, invalidMessage } = require('./config.json');
 
-on('playerConnecting', (input) => {
+on('playerConnecting', (name, setKickReason, deferrals) => {
     deferrals.defer()
 
     const regex = new RegExp(regexPattern);
 
-    deferrals.update('Your PlayerName format is being check.')
+    deferrals.update(`Hello ${name}. Your PlayerName format is being check.`)
     
-    if (regex.test(input)) {
-        deferrals.done()
-    } else {
-        deferrals.done(invalidMessage)
-    }
+    setTimeout(() => {
+        if (regex.test(name)) {
+            deferrals.done()
+        } else {
+            deferrals.done(invalidMessage)
+        }
+    }, 2)
 });

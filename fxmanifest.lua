@@ -5,6 +5,6 @@ version '1.0.0'
 lua54 'yes'
 
 server_scripts {
-  'server.js'
-  'Config.json'
+  'server.js',
+  'config.json'
 }

@@ -1,4 +1,4 @@
 {
-    "regexPattern": "^\\d{3} \\| .+$",
-    "invalidMessage": "Invalid format. Please use the format: 000 | Nickname."
+    "regexPattern": "^\\d{3} \\| [A-Za-z]+ [A-Z]\\.$",
+    "invalidMessage": "Invalid PlayerName format. Please use the format: 000 | John D."
 }
