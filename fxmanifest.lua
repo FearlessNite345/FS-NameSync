@@ -8,3 +8,8 @@ server_scripts {
   'server.js',
   'config.json'
 }
+
+dependencies {
+  'oxmysql',
+  'Badger_Discord_API'
+}
