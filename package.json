@@ -1,0 +1,19 @@
+{
+	"name": "whitigol-fivem-typescript-template",
+	"scripts": {
+		"build": "wfm",
+		"build:client": "wfm build --skip-server",
+		"build:server": "wfm build --skip-client",
+		"dev": "wfm --watch",
+		"dev:client": "wfm --watch --skip-server",
+		"dev:server": "wfm --watch --skip-client",
+		"ui": "wfm --ui-command"
+	},
+	"devDependencies": {
+		"@whitigol/fivem-utils": "latest",
+		"@whitigol/fivem-compiler": "latest",
+		"@citizenfx/client": "latest",
+		"@citizenfx/server": "latest",
+		"@types/node": "latest"
+	}
+}

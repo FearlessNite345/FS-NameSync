@@ -1,6 +1,6 @@
 {
     "regexPattern": "\\d{3} \\| ((\\w\\. \\w+)|(\\w+ \\w\\.)|(Mr\\. \\w+)|(Ms\\. \\w+))",
     "invalidMessage": "Invalid PlayerName format.",
-    "notMatchDiscord": "Your PlayerName does not match your discord name",
-    "phoneNumberFormat": "221555{number}"
+    "notMatchDiscord": "Your PlayerName does not match your discord nickname",
+    "enforceDiscordNameSync": true
 }
