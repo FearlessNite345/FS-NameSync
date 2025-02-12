@@ -12,6 +12,5 @@ files {
 }
 
 dependencies {
-    'FS-Lib',
-    'Badger_Discord_API'
+    'FS-Lib'
 }
