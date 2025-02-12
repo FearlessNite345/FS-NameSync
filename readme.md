@@ -1,0 +1,1 @@
+Go here for documentation: https://docs.fearlessdev.me/fivem-scripts/fs-namesync/
