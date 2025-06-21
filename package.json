@@ -10,10 +10,10 @@
 		"ui": "wfm --ui-command"
 	},
 	"devDependencies": {
-		"@whitigol/fivem-utils": "latest",
-		"@whitigol/fivem-compiler": "latest",
 		"@citizenfx/client": "latest",
 		"@citizenfx/server": "latest",
-		"@types/node": "latest"
+		"@types/node": "latest",
+		"@whitigol/fivem-compiler": "^1.1.0",
+		"@whitigol/fivem-utils": "latest"
 	}
 }

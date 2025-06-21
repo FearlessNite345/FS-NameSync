@@ -15,14 +15,6 @@ export default defineConfig({
 	//! DO NOT USE A LEADING SLASH — IT WILL BREAK THE BUILD!
 	copy: [
 		{
-			from: "src/stream/**/*", // Directory containing files for FiveM's streaming functionality (e.g., models, textures)
-			to: "stream", // Target location in the root of the output directory
-		},
-		{
-			from: "src/data/**/*", // Directory for configuration or supplemental data files
-			to: "data", // Target location in the root of the output directory
-		},
-		{
 			from: 'src/config.json',
 			to: 'config.json'
 		}
